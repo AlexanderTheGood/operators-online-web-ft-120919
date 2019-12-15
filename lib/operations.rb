@@ -15,13 +15,13 @@ end
 			high = first
 		end
 
-		sum = 0 
+		sum = 0
 		(low..high).each do |num|
 			sum += num
 		end
 		sum
 	end
-	
+
 def squares(collection)
 	collection.collect do |num|
 		num ||=0
